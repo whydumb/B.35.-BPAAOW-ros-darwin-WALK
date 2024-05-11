@@ -10,12 +10,10 @@
           j_shoulder_l_position_controller
           j_high_arm_l_position_controller
           j_low_arm_l_position_controller
-          j_gripper_l_position_controller
 
           j_shoulder_r_position_controller
           j_high_arm_r_position_controller
           j_low_arm_r_position_controller
-          j_gripper_r_position_controller
 
           j_pelvis_l_position_controller
           j_thigh1_l_position_controller
