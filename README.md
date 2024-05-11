@@ -16,3 +16,8 @@ wstool init src
 wstool merge -t src https://raw.githubusercontent.com/eriol/darwin_control/main/darwin_control.rosinstall
 wstool update -t src
 ```
+
+And then install the packaged dependencies with:
+```
+rosdep install --from-paths src --ignore-src --rosdistro=${ROS_DISTRO}
+```
