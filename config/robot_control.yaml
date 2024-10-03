@@ -75,7 +75,7 @@ darwin:
   j_ankle1_l_position_controller:
     type: effort_controllers/JointPositionController
     joint: j_ankle1_l
-    pid: {p: 10.0, i: 0.0, d: 0.0}
+    pid: {p: 15.0, i: 0.0, d: 0.1}
 
   j_ankle2_l_position_controller:
     type: effort_controllers/JointPositionController
@@ -107,7 +107,7 @@ darwin:
   j_ankle1_r_position_controller:
     type: effort_controllers/JointPositionController
     joint: j_ankle1_r
-    pid: {p: 10.0, i: 0.0, d: 0.0}
+    pid: {p: 15.0, i: 0.0, d: 0.1}
 
   j_ankle2_r_position_controller:
     type: effort_controllers/JointPositionController
