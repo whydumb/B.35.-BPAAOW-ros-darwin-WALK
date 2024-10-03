@@ -55,61 +55,61 @@ darwin:
   j_pelvis_l_position_controller:
     type: effort_controllers/JointPositionController
     joint: j_pelvis_l
-    pid: {p: 40.0, i: 0.0, d: 0.0}
+    pid: {p: 10.0, i: 0.0, d: 0.0}
 
   j_thigh1_l_position_controller:
     type: effort_controllers/JointPositionController
     joint: j_thigh1_l
-    pid: {p: 40.0, i: 0.0, d: 0.0}
+    pid: {p: 10.0, i: 0.0, d: 0.0}
 
   j_thigh2_l_position_controller:
     type: effort_controllers/JointPositionController
     joint: j_thigh2_l
-    pid: {p: 40.0, i: 0.0, d: 0.0}
+    pid: {p: 10.0, i: 0.0, d: 0.0}
 
   j_tibia_l_position_controller:
     type: effort_controllers/JointPositionController
     joint: j_tibia_l
-    pid: {p: 40.0, i: 0.0, d: 0.0}
+    pid: {p: 10.0, i: 0.0, d: 0.0}
 
   j_ankle1_l_position_controller:
     type: effort_controllers/JointPositionController
     joint: j_ankle1_l
-    pid: {p: 5.0, i: 0.0, d: 0.0}
+    pid: {p: 10.0, i: 0.0, d: 0.0}
 
   j_ankle2_l_position_controller:
     type: effort_controllers/JointPositionController
     joint: j_ankle2_l
-    pid: {p: 5.0, i: 0.0, d: 0.0}
+    pid: {p: 10.0, i: 0.0, d: 0.0}
 
   # Right leg
 
   j_pelvis_r_position_controller:
     type: effort_controllers/JointPositionController
     joint: j_pelvis_r
-    pid: {p: 40.0, i: 0.0, d: 0.0}
+    pid: {p: 10.0, i: 0.0, d: 0.0}
 
   j_thigh1_r_position_controller:
     type: effort_controllers/JointPositionController
     joint: j_thigh1_r
-    pid: {p: 40.0, i: 0.0, d: 0.0}
+    pid: {p: 10.0, i: 0.0, d: 0.0}
 
   j_thigh2_r_position_controller:
     type: effort_controllers/JointPositionController
     joint: j_thigh2_r
-    pid: {p: 40.0, i: 0.0, d: 0.0}
+    pid: {p: 10.0, i: 0.0, d: 0.0}
 
   j_tibia_r_position_controller:
     type: effort_controllers/JointPositionController
     joint: j_tibia_r
-    pid: {p: 40.0, i: 0.0, d: 0.0}
+    pid: {p: 10.0, i: 0.0, d: 0.0}
 
   j_ankle1_r_position_controller:
     type: effort_controllers/JointPositionController
     joint: j_ankle1_r
-    pid: {p: 5.0, i: 0.0, d: 0.0}
+    pid: {p: 10.0, i: 0.0, d: 0.0}
 
   j_ankle2_r_position_controller:
     type: effort_controllers/JointPositionController
     joint: j_ankle2_r
-    pid: {p: 5.0, i: 0.0, d: 0.0}
+    pid: {p: 10.0, i: 0.0, d: 0.0}
