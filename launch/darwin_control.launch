@@ -4,8 +4,8 @@
 
     <node name="controller_spawner" pkg="controller_manager" type="spawner"
           respawn="false" output="screen" ns="/darwin" args="joint_state_controller
-          j_pan_position_controller
-          j_tilt_position_controller
+          head_pan_position_controller
+          head_tilt_position_controller
 
           j_shoulder_l_position_controller
           j_high_arm_l_position_controller

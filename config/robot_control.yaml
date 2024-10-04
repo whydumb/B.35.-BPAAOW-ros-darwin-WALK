@@ -6,14 +6,14 @@ darwin:
 
   # Head
 
-  j_pan_position_controller:
+  head_pan_position_controller:
     type: effort_controllers/JointPositionController
-    joint: j_pan
+    joint: head_pan
     pid: {p: 4.0, i: 0.0, d: 0.0}
 
-  j_tilt_position_controller:
+  head_tilt_position_controller:
     type: effort_controllers/JointPositionController
-    joint: j_tilt
+    joint: head_tilt
     pid: {p: 4.0, i: 0.0, d: 0.0}
 
   # Left arm
