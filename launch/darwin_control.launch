@@ -16,7 +16,7 @@
           r_el_position_controller
 
           l_hip_yaw_position_controller
-          j_thigh1_l_position_controller
+          l_hip_roll_position_controller
           j_thigh2_l_position_controller
           j_tibia_l_position_controller
           j_ankle1_l_position_controller
