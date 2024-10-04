@@ -20,7 +20,7 @@
           l_hip_pitch_position_controller
           l_knee_position_controller
           l_ank_pitch_position_controller
-          j_ankle2_l_position_controller
+          l_ank_roll_position_controller
 
           j_pelvis_r_position_controller
           j_thigh1_r_position_controller
