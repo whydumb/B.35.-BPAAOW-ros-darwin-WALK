@@ -7,8 +7,8 @@
           head_pan_position_controller
           head_tilt_position_controller
 
-          j_shoulder_l_position_controller
-          j_high_arm_l_position_controller
+          l_sho_pitch_position_controller
+          l_sho_roll_position_controller
           j_low_arm_l_position_controller
 
           j_shoulder_r_position_controller

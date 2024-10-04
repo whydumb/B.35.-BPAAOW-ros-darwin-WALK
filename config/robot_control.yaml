@@ -18,14 +18,14 @@ darwin:
 
   # Left arm
 
-  j_shoulder_l_position_controller:
+  l_sho_pitch_position_controller:
     type: effort_controllers/JointPositionController
-    joint: j_shoulder_l
+    joint: l_sho_pitch
     pid: {p: 10.0, i: 0.0, d: 0.0}
 
-  j_high_arm_l_position_controller:
+  l_sho_roll_position_controller:
     type: effort_controllers/JointPositionController
-    joint: j_high_arm_l
+    joint: l_sho_roll
     pid: {p: 40.0, i: 0.0, d: 0.0}
 
   j_low_arm_l_position_controller:
