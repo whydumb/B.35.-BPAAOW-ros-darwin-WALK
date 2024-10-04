@@ -11,9 +11,9 @@
           l_sho_roll_position_controller
           l_el_position_controller
 
-          j_shoulder_r_position_controller
-          j_high_arm_r_position_controller
-          j_low_arm_r_position_controller
+          r_sho_pitch_position_controller
+          r_sho_roll_position_controller
+          r_el_position_controller
 
           j_pelvis_l_position_controller
           j_thigh1_l_position_controller
