@@ -28,9 +28,9 @@ darwin:
     joint: l_sho_roll
     pid: {p: 40.0, i: 0.0, d: 0.0}
 
-  j_low_arm_l_position_controller:
+  l_el_position_controller:
     type: effort_controllers/JointPositionController
-    joint: j_low_arm_l
+    joint: l_el
     pid: {p: 10.0, i: 0.0, d: 0.0}
 
   # Right arm
