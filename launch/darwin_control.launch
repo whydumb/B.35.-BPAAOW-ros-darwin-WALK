@@ -18,7 +18,7 @@
           l_hip_yaw_position_controller
           l_hip_roll_position_controller
           l_hip_pitch_position_controller
-          j_tibia_l_position_controller
+          l_knee_position_controller
           j_ankle1_l_position_controller
           j_ankle2_l_position_controller
 
