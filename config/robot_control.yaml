@@ -84,32 +84,32 @@ darwin:
 
   # Right leg
 
-  j_pelvis_r_position_controller:
+  r_hip_yaw_position_controller:
     type: effort_controllers/JointPositionController
-    joint: j_pelvis_r
+    joint: r_hip_yaw
     pid: {p: 10.0, i: 0.0, d: 0.0}
 
-  j_thigh1_r_position_controller:
+  r_hip_roll_position_controller:
     type: effort_controllers/JointPositionController
-    joint: j_thigh1_r
+    joint: r_hip_roll
     pid: {p: 10.0, i: 0.0, d: 0.0}
 
-  j_thigh2_r_position_controller:
+  r_hip_pitch_position_controller:
     type: effort_controllers/JointPositionController
-    joint: j_thigh2_r
+    joint: r_hip_pitch
     pid: {p: 10.0, i: 0.0, d: 0.0}
 
-  j_tibia_r_position_controller:
+  r_knee_position_controller:
     type: effort_controllers/JointPositionController
-    joint: j_tibia_r
+    joint: r_knee
     pid: {p: 10.0, i: 0.0, d: 0.0}
 
-  j_ankle1_r_position_controller:
+  r_ank_pitch_position_controller:
     type: effort_controllers/JointPositionController
-    joint: j_ankle1_r
+    joint: r_ank_pitch
     pid: {p: 15.0, i: 0.0, d: 0.1}
 
-  j_ankle2_r_position_controller:
+  r_ank_roll_position_controller:
     type: effort_controllers/JointPositionController
-    joint: j_ankle2_r
+    joint: r_ank_roll
     pid: {p: 10.0, i: 0.0, d: 0.0}
