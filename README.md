@@ -1,6 +1,6 @@
 # darwin_control
 
-ROS package that defines controller interfaces for Darwin OP robot.
+Darwin OP 로봇을 위한 컨트롤러 인터페이스를 정의하는 ROS 패키지입니다.
 
 ## Install
 
